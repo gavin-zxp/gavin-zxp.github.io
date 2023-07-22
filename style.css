@@ -16,3 +16,9 @@ hr{
 .btn{
     width: 60%;
 }
+.rectangle_icon{
+    height: 40px;
+    width: 18px;
+    background-color: black;
+    display: inline-block;
+}

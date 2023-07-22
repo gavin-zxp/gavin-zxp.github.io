@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta name="renderer"  content="webkit">
+    <meta name="renderer" content="webkit" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title class="i18n" name="site_title"></title>
@@ -12,14 +12,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
   </head>
   <body>
     <section>
-      <div class="d-flex bg-dark align-items-center" id="sec_1_bg">
-        <div class="container text-center text-white">
+      <div class="d-flex text-center align-items-center" id="sec_1_bg">
+        <div class="container text-white">
           <div class="row g-5">
-            <h1 class="col-md-8 offset-md-4">欢迎来到烟台众昇金属结构公司</h1>
-            <h1 class="col-md-8">Welcome to Yantai Ston Metal Co., Ltd.</h1>
+            <h1 class="col-md-9 offset-md-3 display-3 text-justify">
+              欢迎来到烟台众昇金属结构公司
+            </h1>
+            <h1 class="col-12 display-3 text-justify">
+              Welcome to Yantai Ston Metal Co., Ltd.
+            </h1>
             <div class="col-12">
               <hr class="col border border-white border-2 opacity-75" />
             </div>
@@ -28,10 +33,10 @@
                 <a
                   href="#AboutUs"
                   style="color: white; text-decoration: none"
-                  class="fs-5 col-lg-3 col-md-4 col-sm-6"
+                  class="col-lg-4 col-md-6 col-sm-6"
                   ><button
                     type="button"
-                    class="btn btn-outline-light border-2 btn-lg"
+                    class="btn btn-outline-light border-2 btn-lg fs-3"
                     id="lang_cn"
                   >
                     简体中文
@@ -40,10 +45,10 @@
                 <a
                   href="#AboutUs"
                   style="color: white; text-decoration: none"
-                  class="fs-5 col-lg-3 col-md-4 col-sm-6"
+                  class="col-lg-4 col-md-6 col-sm-6"
                   ><button
                     type="button"
-                    class="btn btn-outline-light border-2 btn-lg"
+                    class="btn btn-outline-light border-2 btn-lg fs-3"
                     id="lang_en"
                   >
                     English
@@ -63,22 +68,30 @@
             <img src="img/product_1_boat.jpg" alt="" class="img-fluid" />
           </div>
           <div class="col-md p-5">
-            <h1 class="mb-5 i18n" name="sec2_h"></h1>
-            <p class="fs-4 i18n" name="sec2_p1"></p>
-            <p class="fs-4 i18n" name="sec2_p2"></p>
-            <p class="fs-4 i18n" name="sec2_p3"></p>
+            <div class="mb-5 d-flex align-items-center">
+              <h1 class="rectangle_icon"></h1>
+              <span class="h1">&nbsp;</span>
+              <span class="i18n h1" name="sec2_h"></span>
+            </div>
+            <p class="fs-3 i18n my-5" name="sec2_p1"></p>
+            <p class="fs-3 i18n my-5" name="sec2_p2"></p>
+            <p class="fs-3 i18n my-5" name="sec2_p3"></p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="p-5">
+    <section class="p-5" id="OurValue">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
-            <h1 class="mb-5 i18n" name="sec3_h"></h1>
-            <p class="fs-4 i18n" name="sec3_p1"></p>
-            <p class="fs-4 i18n" name="sec3_p2"></p>
+            <div class="mb-5 d-flex align-items-center">
+              <h1 class="rectangle_icon"></h1>
+              <span class="h1">&nbsp;</span>
+              <span class="h1 i18n" name="sec3_h"></span>
+            </div>
+            <p class="fs-3 i18n my-5" name="sec3_p1"></p>
+            <p class="fs-3 i18n my-5" name="sec3_p2"></p>
           </div>
           <div class="col-md">
             <div id="sec-3-pic" class="carousel slide" data-bs-ride="carousel">
@@ -138,7 +151,7 @@
       </div>
     </section>
 
-    <section class="p-5">
+    <section class="p-5" id="OurProducts">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
@@ -196,28 +209,27 @@
             </div>
           </div>
           <div class="col-md p-5">
-            <h1 class="mb-5 i18n" name="sec4_h"></h1>
-            <dl>
-              <dt class="fs-2 i18n" name="sec4_cat1"></dt>
-              <dd class="fs-3 i18n" name="sec4_desc1"></dd>
-              <dt class="fs-2 i18n" name="sec4_cat2"></dt>
-              <dd class="fs-3 i18n" name="sec4_desc2"></dd>
-              <dt class="fs-2 i18n" name="sec4_cat3"></dt>
-              <dd class="fs-3 i18n" name="sec4_desc3"></dd>
-            </dl>
-            <div class="row justify-content-end">
-              <div class="col-3">
-                <img src="img/iso_9001.jpg" class="img-fluid" />
-              </div>
+            <div class="mb-5 d-flex align-items-center">
+              <h1 class="rectangle_icon"></h1>
+              <span class="h1">&nbsp;</span>
+              <span class="h1 i18n" name="sec4_h"></span>
             </div>
+            <ul>
+              <li class="fs-2 i18n" name="sec4_cat1"></li>
+              <dd class="fs-3 i18n mb-5" name="sec4_desc1"></dd>
+              <li class="fs-2 i18n" name="sec4_cat2"></li>
+              <dd class="fs-3 i18n mb-5" name="sec4_desc2"></dd>
+              <li class="fs-2 i18n" name="sec4_cat3"></li>
+              <dd class="fs-3 i18n" name="sec4_desc3"></dd>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="p-5">
+    <section class="p-5" id="OurManagment">
       <div class="container">
-        <h1 class="text-center mb-5 i18n" name="sec5_h"></h1>
+        <h1 class="mb-5 i18n" name="sec5_h"></h1>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card bg-light">
@@ -262,40 +274,25 @@
       </div>
     </section>
 
-    <section class="p-5">
+    <section class="p-5" id="Contact">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5 fs-5">
-            <h1 class="text-center mb-4 i18n" name="sec6_h"></h1>
-            <p class="i18n" name="sec6_p1"></p>
-            <ul class="mb-3">
-              <a
-                href="file/slides_cn.pptx"
-                download="公司PPT.pptx"
-                class="i18n"
-                name="sec6_slide"
-                id="sec6_slide_file"
-              ></a>
-              <br />
-              <a
-                href="file/products_cn.pdf"
-                download="产品介绍.pdf"
-                class="i18n"
-                name="sec6_product"
-                id="sec6_product_file"
-              ></a>
-            </ul>
-            <p class="i18n" name="sec6_p2"></p>
+            <div class="mb-5 d-flex align-items-center">
+              <h1 class="rectangle_icon"></h1>
+              <span class="h1">&nbsp;</span>
+              <span class="h1 i18n" name="sec6_h"></span>
+            </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <strong class="i18n" name="sec6_tel"></strong>+86 5352165218
+                <strong class="i18n" name="sec6_tel"></strong>+86 535 2165 218
               </li>
               <li class="list-group-item">
-                <strong class="i18n" name="sec6_mobile"></strong>+86 18953523766
+                <strong class="i18n" name="sec6_mobile"></strong>+86 189 5352 3766
               </li>
               <li class="list-group-item">
                 <strong class="i18n" name="sec6_email"></strong
-                >sales@stonmetal.com
+                >li.huipeng@stonmetal.cn
               </li>
               <li class="list-group-item">
                 <strong class="i18n" name="sec6_address_tag"></strong
