@@ -1,22 +1,9 @@
-var Language_Index = "zh_CN"; //标识语言
-
-jQuery(document).ready(function () {
-    // alert("页面加载时调用的方法");
-    Language_Index = jQuery.i18n.normaliseLanguageCode({}); //获取浏览器的语言
-    if(Language_Index != "zh_CN") {
-        Language_Index = "en_US";
-    }
-    loadProperties(Language_Index);
-});
-
 $("#lang_cn").click(function () {
-    Language_Index = "zh_CN";
-    loadProperties(Language_Index);
+    window.location.href='index-zh.html#AboutUs';
 });
 
 $("#lang_en").click(function () {
-    Language_Index = "en_US";
-    loadProperties(Language_Index);
+    window.location.href='index-en.html#AboutUs';
 });
 
 function loadProperties(type) {

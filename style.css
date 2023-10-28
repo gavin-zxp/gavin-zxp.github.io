@@ -22,3 +22,6 @@ hr{
     background-color: black;
     display: inline-block;
 }
+.en_desc{
+    font-family: 'Calibri Light', arial, sans-sarif;
+}
