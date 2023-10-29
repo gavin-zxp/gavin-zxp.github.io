@@ -1,5 +1,10 @@
-#sec_1_bg{
-    background-image:url('./img/bg.png');
+#sec_1_img_default{
+    background-image:url('img/bg.png');
+}
+#sec_1_img_lang{
+    background-image:url('../img/bg.png');
+}
+.sec_1_bg{
     background-size:cover;
 	background-repeat:no-repeat;
     background-position: center center;
