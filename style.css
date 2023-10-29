@@ -1,11 +1,4 @@
-#sec_1_bg_lang{
-    background-image:url('../img/bg.png');
-    background-size:cover;
-	background-repeat:no-repeat;
-    background-position: center center;
-    height: 100vh;
-}
-#sec_1_bg_default{
+#sec_1_bg{
     background-image:url('img/bg.png');
     background-size:cover;
 	background-repeat:no-repeat;
