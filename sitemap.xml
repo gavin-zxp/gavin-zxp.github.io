@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://www.stonmetal.cn/en/</loc>
+      <lastmod>2023-11-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/zh/</loc>
+      <lastmod>2023-11-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/product_1_boat.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/product_2_1.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/product_2_2.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/product_3_1.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/product_3_2.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/manager_huipeng.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/manager_mengran.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/img/manager_xiaoxia.jpg</loc>
+      <lastmod>2023-07-26</lastmod>
+      <priority>0.5</priority>
+   </url>
+
+</urlset>
