@@ -3,65 +3,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
-      <loc>https://www.stonmetal.cn/en/</loc>
+      <loc>https://www.stonmetal.cn</loc>
       <lastmod>2023-11-12</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
+      <loc>https://www.stonmetal.cn/en/</loc>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/outfitting.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/drainage_cover.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/vessel_handrail.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/steel_grating.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/handrail.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/Li_huipeng.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/Li_mengran.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/Xu_xiaoxia.jpg</image:loc>
+      </image:image>
+      <lastmod>2023-11-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
    </url>
 
    <url>
       <loc>https://www.stonmetal.cn/zh/</loc>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/outfitting.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/drainage_cover.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/vessel_handrail.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/steel_grating.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/handrail.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/Li_huipeng.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/Li_mengran.jpg</image:loc>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.stonmetal.cn/img/Xu_xiaoxia.jpg</image:loc>
+      </image:image>
       <lastmod>2023-11-12</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/product_1_boat.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/product_2_1.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/product_2_2.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/product_3_1.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/product_3_2.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/manager_huipeng.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/manager_mengran.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
-   </url>
-
-   <url>
-      <loc>https://www.stonmetal.cn/img/manager_xiaoxia.jpg</loc>
-      <lastmod>2023-07-26</lastmod>
-      <priority>0.5</priority>
+      <priority>1.0</priority>
    </url>
 
 </urlset>
