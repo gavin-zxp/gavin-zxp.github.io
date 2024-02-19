@@ -14,6 +14,15 @@
       gtag("js", new Date());
       gtag("config", "AW-11440963960");
     </script>
+    <!-- 转化追踪 -->
+    <script>
+      function showThankYouMessage() {
+        // setTimeout(function() {
+        //   window.close();
+        // }, 3000);
+        alert("Thank you for your message. We will contact you later!");
+      }
+    </script>
     <meta name="renderer" content="webkit" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -368,7 +377,26 @@
                 <strong>Register No./VAT: </strong>91370600MA3QHXHD3K
               </li>
             </ul>
-            <div class="row justify-content-end">
+            <div class="row">
+              <div class="col-9 mt-5">
+                <h4><strong>Leave us a message</strong></h4>
+                <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbyr9hw2noUNmfEQysRhsgulclvfvmJapLFf8UmKjdol1YxM5SRo6aSAbPgy6iqxeXpxjw/exec" onsubmit="showThankYouMessage(); return true;">
+                  <div class="form-group row">
+                    <label class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" name="fullname" required>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" name="email" required>
+                    </div>
+                  </div>
+                  Message<textarea name="message" rows="5" cols="35" required></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
               <div class="col-3">
                 <img
                   src="../img/iso_9001.jpg"
@@ -396,5 +424,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script data-cfasync="false" type="text/javascript" src="../form-submission-handler.js"></script>
   </body>
 </html>
