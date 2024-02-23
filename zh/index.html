@@ -12,14 +12,32 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-      gtag("config", "AW-11440963960");
+      gtag('config', 'AW-11440963960', {'allow_enhanced_conversions':true});
     </script>
-    <!-- 转化追踪 -->
     <script>
       function showThankYouMessage() {
         // setTimeout(function() {
         //   window.close();
         // }, 3000);
+        // 转化追踪
+        window.addEventListener('load',function()
+          {
+          document.querySelectorAll('input[type="submit"]').forEach(function(e)
+              {
+                  e.addEventListener('click',function()
+                  {
+                      var name= document.querySelector('input[name="fullname"]').value;
+                      var email= document.querySelector('input[name="email"]').value;
+                      var msg= document.querySelector('textarea[name="message"]').value;                   
+                      var mailformat = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+                      if(name!="" && msg!="" && email!="" && email.match(mailformat))
+                    {
+                        gtag('set','user_data',{"email" : email});                     
+                        gtag('event', 'conversion', {'send_to': 'AW-11440963960/ZqaQCOrbuf8YEPiCvc8q'});
+                    }
+                  })
+              })
+          })
         alert("感谢您提交留言，我们将在稍后与您取得联系！");
       }
     </script>
