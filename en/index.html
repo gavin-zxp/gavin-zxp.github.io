@@ -2,17 +2,31 @@
 <html lang="zh-CN">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-11440963960"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11440963960"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag('config', 'AW-11440963960', {'allow_enhanced_conversions':true});
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-11440963960',{'allow_enhanced_conversions':true});
+    </script>
+    <script>  
+      window.addEventListener('load',function() {
+        document.querySelectorAll('input[type="submit"]').forEach(function(e)
+          {
+            e.addEventListener('click',function()
+            {
+              var name= document.querySelector('input[name="fullname"]').value;
+              var email= document.querySelector('input[name="email"]').value;
+              var msg= document.querySelector('textarea[name="message"]').value;
+              var mailformat = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+              if(name!="" && msg!="" && email!="" && email.match(mailformat))
+              {
+                gtag('set','user_data',{"email" : email});
+                gtag('event', 'conversion', {'send_to': 'AW-11440963960/ZqaQCOrbuf8YEPiCvc8q'});
+              }
+            })
+          })
+        })
     </script>
     <script>
       function showThankYouMessage() {
@@ -28,11 +42,11 @@
                   {
                       var name= document.querySelector('input[name="fullname"]').value;
                       var email= document.querySelector('input[name="email"]').value;
-                      var msg= document.querySelector('textarea[name="message"]').value;                   
+                      var msg= document.querySelector('textarea[name="message"]').value;
                       var mailformat = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
                       if(name!="" && msg!="" && email!="" && email.match(mailformat))
                     {
-                        gtag('set','user_data',{"email" : email});                     
+                        gtag('set','user_data',{"email" : email});
                         gtag('event', 'conversion', {'send_to': 'AW-11440963960/ZqaQCOrbuf8YEPiCvc8q'});
                     }
                   })
